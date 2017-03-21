@@ -5,19 +5,22 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
 
-// import { AppComponent } from './app.component';
-import { TopComponent } from './top/top.component';
 import { AppComponent, ROUTES } from './app.component';
+import { TopComponent } from './top/top.component';
 import { InputComponent } from './top/input/input.component';
 import { ButtonComponent } from './top/button/button.component';
+
+import { ResultMapComponent } from './resultMap/resultMap.component';
+import { MapComponent } from './resultMap/map/map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // MainComponent,
     TopComponent,
     InputComponent,
-    ButtonComponent
+    ButtonComponent,
+    ResultMapComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
