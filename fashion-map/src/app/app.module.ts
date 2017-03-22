@@ -12,6 +12,7 @@ import { ButtonComponent } from './top/button/button.component';
 
 import { ResultMapComponent } from './resultMap/resultMap.component';
 import { MapComponent } from './resultMap/map/map.component';
+import { CardComponent } from './resultMap/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MapComponent } from './resultMap/map/map.component';
     InputComponent,
     ButtonComponent,
     ResultMapComponent,
-    MapComponent
+    MapComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
