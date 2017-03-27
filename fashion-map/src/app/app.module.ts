@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
+import { AgmCoreModule } from 'angular2-google-maps/core';
 
 import { AppComponent, ROUTES } from './app.component';
 import { TopComponent } from './top/top.component';
@@ -29,7 +30,10 @@ import { CardComponent } from './resultMap/card/card.component';
     FormsModule,
     HttpModule,
     MaterialModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    AgmCoreModule.forRoot({
+      apiKey: 'YOUR_KEY'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
