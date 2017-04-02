@@ -10,8 +10,9 @@ export const ROUTES = [
 
 @Component({
   selector: 'body',
-  template: `<router-outlet></router-outlet>`
+  template: `<router-outlet></router-outlet>`,
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent{
-  
+
 }
