@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'map-component',
   templateUrl: './map.component.html',
-  styleUrls: ['./map.component.css']
+  styleUrls: ['./map.component.scss']
 })
 export class MapComponent {
   title: string = 'My first angular2-google-maps project';
